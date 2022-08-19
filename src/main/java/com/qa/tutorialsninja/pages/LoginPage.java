@@ -30,7 +30,7 @@ public class LoginPage extends BasePage {
 	}
 
 	// 3.Page Actions: Features of the page in the form of methods
-	@Step("getting login page title...")
+	@Step("getting login page title value...")
 	public String getLoginPageTitle() 
 	{
 	   
