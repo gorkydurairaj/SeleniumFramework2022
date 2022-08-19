@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Dec2021POMFrameworksuite" thread-count="2"
+	parallel="tests">
+	<listeners>
+		<listener class-name="com.qa.tutorialsninja.testlisteners.ExtentReportListener" />
+		<listener class-name="com.qa.tutorialsninja.testlisteners.TestAllureListener" />
+	</listeners>
+	
+	<test name="loginpageTest" verbose="2">
+		<classes>
+			<class name="com.qa.tutorialsninja.tests.LoginPageTest" />
+		</classes>
+	</test>
+
+	<test name="AccountsPageTest" verbose="2">
+		<classes>
+			<class name="com.qa.tutorialsninja.tests.AccountsPageTest" />
+		</classes>
+
+	</test>
+	<test name="productInfoPageTest" verbose="2">
+		<classes>
+			<class name="com.qa.tutorialsninja.tests.ProductInfoPageTest" />
+		</classes>
+
+	</test>
+	<test name="RegistrationPageTest" verbose="2">
+		<classes>
+			<class name="com.qa.tutorialsninja.tests.RegistrationPageTest" />
+		</classes>
+
+	</test>
+</suite> 
